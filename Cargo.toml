@@ -1,0 +1,8 @@
+[package]
+name = "secure_comm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.28.0", features = ["full"] }
+rand = "0.8.5"
